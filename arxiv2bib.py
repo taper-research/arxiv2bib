@@ -186,7 +186,6 @@ class Reference(object):
                     ("Month", self.month),
                     ("Note", self.note),
                     ("Url", self.url),
-                    ("File", self.id + ".pdf"),
                     ]:
             if len(v):
                 lines.append("%-13s = {%s}" % (k, v))
